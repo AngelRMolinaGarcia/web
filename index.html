@@ -1,0 +1,103 @@
+<!--Ángel Rafael Molina García, grupo B, 10/Febrero/2025, Introducción a HTML5 y CSS3-->
+<!DOCTYPE html>
+<html lang="es">
+    <!--Siempre poner el idioma real en el lang para el SEO, "en" es de inglés y "es" es de Español-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora de Ángel Molina</title>
+    <style>
+        header{
+            width: 1900px; height: 200px;
+            background-color: rgb(133, 0, 0);
+        }
+        section{
+            width: 1900px; height: 100px;
+            background-color: rgb(121, 121, 121);
+        }
+        footer{
+            width: 1900px; height: 1500px;
+            background-color: rgb(0, 60, 68);
+        }
+        .hermano{
+            width: 100px; height: 100px;
+            background-color: rgb(106, 0, 128);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Esto es un header</h1>
+        <a href="#portada1">Ir a abajo</a>
+        <a href="#portada2">Ir a abajo2</a>
+        <a href="#portada3">Ir a abajo3</a>
+        <!--Siempre el # para llamar al div y que te lleve alli-->
+    </header>
+    
+    <!--Header lo de hasta arriba, como un menu-->
+    <section></section>
+    <article></article>
+    <h1>Bitacora Ángel Rafael Molina García, grupo B, 10/Febrero/2025, Introducción a HTML5 y CSS3</h1>
+    <h1>Hola Mundo</h1>
+    <h1>Este es un título grande h1</h1>
+    <h2>subtítulo h2</h2>
+    <h3>Título h3</h3>
+    <h4>Título h4</h4>
+    <h5>Titulo h5</h5>
+    <h6>Subtítulo h6 de poca importancia</h6>
+    <!--Cada titulo va teniendo menos importancia conforme su tamaño disminuye-->
+    <p>Cada titulo va teniendo menos importancia conforme su tamaño disminuye y no deben ser largos</p>
+    <p>Cuando pones < ! y 2 guiones -- pegado todo se hace un comentario que no se ve en la página, y se cierra con dos guiones -- y > pegados</p>
+    <p>Este es un parrafo</p>
+    <a href="https://tbhx.net/en/">Clickea para ver el sitio oficial de to be hero x (Este es un link a href)</a>
+    <p>Este es el iframe que pone videos, esta copiado desde YouTube</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/meQ-mCz0grY?si=AOb7Y0w6Y9oLa7ah" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p>Este es el img para poner imágenes, con link copiado en el source</p>
+    <img src="https://i.blogs.es/ce436a/sakamoto-days/500_333.jpeg">
+    <p>Este es el img con ../ en el src e imagen en el archivo</p>
+    <img src="../Respaldo/img/hellsing-datos-que-quizas-no-conocias-de-la-franquicia.jpg">
+
+    <ul>(Esta es una lista desordenada ul para enlistar cosas y cada elemento es un li, [li siempre va por dentro de ol])
+        <p>Personajes random que pongo nomas (Este es un párrafo)</p>
+        <li>Alucard</li>
+        <li>X</li>
+        <li>Arlecchino</li>
+        <li>Satoru Gojo</li>
+        <li>Mikasa</li>
+        <li>Evelyn Chevalier</li>
+        <li>Wanwan</li> 
+    </ul>
+    <ol start="10">(Esta es una lista ordenada ol y le aparecen numeros, tiene el start en 10 y cada elemento es un li)
+        <p>Personajes random que pongo nomas</p>
+        <li>Alucard</li>
+        <li>X</li>
+        <li>Arlecchino</li>
+        <li>Satoru Gojo</li>
+        <li>Mikasa</li>
+        <li>Evelyn Chevalier</li>
+        <li>Wanwan</li> 
+    </ol> <!--[DOM] li siempre va por dentro de ul o de ol-->
+    <ol>(Esta es una lista ordenada ol y le aparecen numeros, sin el start)
+        <p>Personajes random que pongo nomas</p>
+        <li>Alucard</li>
+        <li>X</li>
+        <li>Arlecchino</li>
+        <li>Satoru Gojo</li>
+        <li>Mikasa</li>
+        <li>Evelyn Chevalier</li>
+        <li>Wanwan</li> 
+    </ol>
+    <p>El DOM es la jerarquización, lo que lleva dentro cada elemento y al ser alterado todo lo que tiene por dentro se es alterado como las ramas de un arbol</p>
+    <footer>
+         <div id="portada"> Estas abajo :v</div>
+         <!--Con el id sirve para diferenciarlo, con sus propias caracteristicas-->
+         <div class="hermano" id="portada1"></div>
+         <div class="hermano" id="portada2"></div>
+         <div class="hermano" id="portada3"></div>
+         <div class="hermano"></div>
+         <div class="hermano"></div>
+        <!--div con class es por si se va a repetir varias veces con las mismas caracteristicas-->
+        <!--Div siempre va debtro de otro, se penaliza por el SEO si no-->
+    </footer>
+</body>
+</html>
