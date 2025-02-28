@@ -1,0 +1,255 @@
+<!--21/Febrero/2025, Introducción a HTML5 y CSS3, Grupo B, Ángel Rafael Molina García, 248106-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 1</title>
+    <style>
+        .menu1{
+            background-color: #070707;
+            width: 1920px;
+            height: 70px;
+            position: sticky;
+            top: 0;
+            overflow: hidden;
+        }
+        .simbolo {
+            width: 230px;
+            height: 50px;
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            background-image: url(imgs/logo.jpg);
+        }
+        .fondoprincipal {
+            margin: 0;
+            background-image: url(imgs/fondo1.jpg);
+            background-repeat: no-repeat;
+            width: 1920px;
+            height: 1150px;
+            background-size: contain;
+        }
+        .menu2{
+            background-color: #190349;
+            width: 230px; height: 830px;
+            position: sticky;
+            left: 0;
+            top: 70px;
+            overflow: hidden;            
+        }
+        .abajo {
+            width: 1920px;
+            height: 550px;
+            background-color: #1B1A1A;
+            overflow: hidden;     
+        }
+        .todo {
+            width: 1920px;
+            height: 1000px;
+        }
+        .productos {
+            width: 1690px;
+            height: 880px;
+            margin-top: -800px;
+            margin-left: 230px;
+
+        }
+        .textocentrado {
+            text-align: center;
+            color: #EEE5E9;
+            margin-top: 10;
+        }
+        .categ {
+            text-align: center;
+            color: #EEE5E9;
+            margin-left: 15px;
+            margin-right: 60px;
+        }
+        .mapa {
+            width: 600px;
+            height: 200px;
+            margin-left: 10px;
+        }
+        .ubic {
+            color: #EEE5E9;
+            text-align: center;
+        }
+        .categs {
+            color: #EEE5E9;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .mitadarriba {
+            width: 1600px;
+            height: 420px;
+            margin-left: 45px;
+            margin-right: 45px;
+            margin-bottom: 20px;
+        }
+        .mitadabajo {
+            width: 1600px;
+            height: 420px;
+            margin-left: 45px;
+            margin-right: 45px;
+            margin-bottom: 20px;
+        }
+        .articulos {
+            width: 300px;
+            height: 400px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 50px;
+            margin-right: 50px;
+            background-color: #515E62;
+            float: left;
+        }
+        .imagenarticulo {
+            width: 280px;
+            height: 300px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .info {
+            width: 280px;
+            height: 100px;
+            margin-left: 10px;
+            margin-right: 10px;
+            background-color: #EBE3E2;
+            overflow: hidden;
+        }
+        .articulo {
+            width: 280px;
+            height: 300px;
+        }
+        .lainf {
+            text-align: center;
+            color: #070707;
+            margin-top: 10px;
+        }
+        .precio {
+            text-align: center;
+            color: #04A2B6
+
+        }
+    </style>
+</head>
+<body class="fondoprincipal">
+    <header class="menu1">
+        <div class="simbolo">
+           
+        </div>
+        <div class="extra">
+
+        </div>
+    </header>
+    <div class="todo">
+        <div class="menu2">
+            <h2 class="textocentrado">Categorías</h2>
+            <ul class="categ">
+                <li class="categs">Lo más vendido</li>
+                <li class="categs">Lo más reciente</li>
+                <li class="categs">Camisas</li>
+                <li class="categs">Blusas</li>
+                <li class="categs">Playeras</li>
+                <li class="categs">Pantalones</li>
+                <li class="categs">Pantaloneras</li>
+                <li class="categs">Vestidos</li>
+                <li class="categs">Faldas</li>
+                <li class="categs">Suéteres</li>
+                <li class="categs">Chamarras</li>
+                <li class="categs">Collares</li>
+                <li class="categs">Anillos</li>
+            </ul>
+        </div>
+        <div class="productos">
+           <div class="mitadarriba">
+                <div class="articulos">
+                    <div class="imagenarticulo">
+                        <img class="articulo" src="https://cdn.pixabay.com/photo/2024/01/20/01/54/ai-generated-8520248_640.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3 class="lainf">Playera blanca Nike</h3>
+                        <p class="precio">$ 150</p>
+
+                    </div>
+                </div>
+                <div class="articulos">
+                    <div class="imagenarticulo">
+                        <img class="articulo" src="https://cdn.pixabay.com/photo/2022/12/06/13/25/male-portrait-7638970_640.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3 class="lainf">Camisa de oficina Gucci</h3>
+                        <p class="precio">$ 350</p>
+                    </div>
+                </div>
+                <div class="articulos">
+                    <div class="imagenarticulo">
+                        <img class="articulo" src="https://cdn.pixabay.com/photo/2024/01/20/01/50/ai-generated-8520198_640.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3 class="lainf">Camisa negra Valenciaga</h3>
+                        <p class="precio">$ 120</p>
+
+                    </div>
+                </div>
+                <div class="articulos">
+                    <div class="imagenarticulo">
+                        <img class="articulo" src="https://cdn.pixabay.com/photo/2018/01/01/15/31/woman-3054364_640.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3 class="lainf">Camisa Saint Laurent</h3>
+                        <p class="precio">$ 190</p>
+
+                    </div>
+                </div>
+           </div>
+           <div class="mitadabajo">
+                <div class="articulos">
+                    <div class="imagenarticulo">
+                         <img class="articulo" src="https://cdn.pixabay.com/photo/2020/01/25/11/07/woman-4792227_640.jpg" alt="">
+                    </div>
+                <div class="info">
+                    <h3 class="lainf">Camisa roja Valenciaga</h3>
+                    <p class="precio">$ 200</p>
+                </div>
+                </div>
+                    <div class="articulos">
+                        <div class="imagenarticulo">
+                            <img class="articulo" src="https://cdn.pixabay.com/photo/2016/11/22/19/02/bag-1850053_640.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3 class="lainf">Pantalones Shein</h3>
+                        <p class="precio">$ 400</p>
+                    </div>
+                </div>
+                <div class="articulos">
+                    <div class="imagenarticulo">
+                        <img class="articulo" src="https://cdn.pixabay.com/photo/2020/03/02/12/13/jeans-4895573_1280.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3 class="lainf">Pantalones Nike</h3>
+                        <p class="precio">$ 210</p>
+                    </div>
+                </div>
+                <div class="articulos">
+                    <div class="imagenarticulo">
+                        <img class="articulo" src="https://cdn.pixabay.com/photo/2023/10/22/15/05/woman-8334200_640.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3 class="lainf">Vestido Rojo Shein</h3>
+                        <p class="precio">$ 450</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="abajo">
+        <div class="mapa">
+            <h2 class="ubic">Nuestra Ubicación</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d414590.7211988997!2d139.8983626437547!3d35.72646422902198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60229ac1c8eec4df%3A0x689c0bdcac1d91e6!2sChiba%2C%20Prefectura%20de%20Chiba%2C%20Jap%C3%B3n!5e0!3m2!1ses-419!2smx!4v1740775387170!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+ 
+    </footer>
+</body>
+</html>
