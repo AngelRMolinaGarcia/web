@@ -1,0 +1,24 @@
+.menuant{
+    width: 1950px;
+    height: 100px;
+    background-color: #191716;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    position: sticky;
+}
+body{
+    margin: 0;
+}
+.vincs{
+    text-decoration: none;
+    color: #B00909;
+    display: block;
+}
+.centrador{
+    width: 185px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
