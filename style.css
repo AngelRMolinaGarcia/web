@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomakh&display=swap');
+ 
+        header {
+            width: 1900px;
+            height: 200px;
+            background-color: #440D0F;
+            display: block;
+        }
+ 
+        body {
+            background-color: #0C080A;
+            display: block;
+        }
+ 
+        section {
+            width: 1900px;
+            height: 100px;
+            background-color: #191716;
+            display: block;
+        }
+ 
+        footer {
+            width: 1900px;
+            height: 1500px;
+            background-color: #440D0F;
+            display: block;
+        }
+ 
+        .hermano {
+            width: 300px;
+            height: 300px;
+            background-color: #191716;
+            display: block;
+            margin: 10px;
+            float: left;
+        }
+ 
+        h1 {
+            text-align: center;
+            color: #603A40;
+            display: block;
+        }
+ 
+        h2 {
+            text-align: center;
+            color: #603A40;
+            display: block;
+        }
+ 
+        h3 {
+            text-align: center;
+            color: #603A40;
+            display: block;
+        }
+ 
+        h4 {
+            text-align: center;
+            color: #603A40;
+            display: block;
+        }
+ 
+        h5 {
+            text-align: center;
+            color: #603A40;
+            display: block;
+        }
+ 
+        h6 {
+            text-align: center;
+            color: #603A40;
+            display: block;
+        }
+ 
+        .prim {
+            color: #E3DBE6;
+            font-family: "Monomakh", serif;
+            display: block;
+        }
+ 
+        .sec {
+            font-family: "Monomakh", serif;
+            color: #603A40;
+            display: block;
+        }
+ 
+        .imgcentrada {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+ 
+        .parr {
+            text-align: center;
+            color: #E3DBE6;
+            display: block;
+        }
+ 
+        .link {
+            text-align: center;
+            display: block;
+            margin-top: 10px;
+        }
+ 
+        li {
+            text-align: center;
+            color: #E3DBE6;
+        }
+ 
+        ul {
+            text-align: center;
+            color: #E3DBE6;
+        }
+ 
+        ol {
+            text-align: center;
+            color: #E3DBE6;
+        }
+ 
+        .divs {
+            width: 1000px;
+            height:310px;
+            margin-left: auto;
+            margin-right: auto;
+            background: #b40000;
+            background: linear-gradient(90deg,#b40000 0%, #000000 80%);
+            background: -webkit-linear-gradient(90deg,#b40000 0%, #000000 80%);
+            background: -moz-linear-gradient(90deg,#b40000 0%, #000000 80%);
+            display: block;
+            border: 10px solid #603A40;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+ 
+        .menu {
+            width: 1900px;
+            height: 70px;
+            position: sticky;
+            top: 0;
+            overflow: hidden;
+            background-color: #191716;
+            color: #603A40;
+            display: block;
+        }
+ 
+        .vi1 {
+            text-align: left;
+            text-align: center;
+            display: block;
+            text-decoration: none;
+            color: #B00909;
+        }
+ 
+        .inf {
+            width: 1000px;
+            height: 1000px;
+            background-repeat: no-repeat;
+            background-image: url(https://i.pinimg.com/736x/f2/4c/9e/f24c9e9c44f085a7e1f2f1bdac0088a8.jpg);
+            background-size: contain;
+            display: block;
+        }
+        #light{
+            border: 10px solid #603A40;
+        }
+        .noadornos {
+            list-style: none;
+        }
+        .solo {
+            color: #B00909;
+            text-decoration: none;
+        }
+        .portadas {
+            text-decoration: none;
+            color: #E3DBE6;
+        }
+        .capas1 {
+            width: 300px;
+            height: 300px;
+            background-color: #B00909;
+            position: absolute;
+            top: 5150px;
+            left: 0px;
+            z-index: -1;
+        }
+        .capas2 {
+            width: 300px;
+            height: 300px;
+            background-color: #603A40;
+        }
+        svg {
+            color: #E3DBE6;
+        }
+        #keys{
+            width: 200px;
+            height: 200px;
+            background-color: #B00909;
+            animation: mover 2s infinite; /*Nombre de la animacion, tiempo, loop*/
+        }
+ 
+        @keyframes mover {
+            0%{
+                transform: translateX(0);
+            }
+            50%{
+                transform: translateX(100px);
+            }
+            100%{
+                transform: translateX(0);
+            }
+        }
+        #keyson{
+            width: 200px;
+            height: 200px;
+            background-color: #B00909;
+            animation: rotar 2s infinite; /*Nombre de la animacion, tiempo, loop*/
+        }
+        @keyframes rotar {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        #keysonon{
+            width: 200px;
+            height: 200px;
+            background-color: #B00909;
+            animation: escalar 2s infinite; /*Nombre de la animacion, tiempo, loop*/
+        }
+        @keyframes escalar {
+            0%{
+                transform: scale(1);
+            }
+            50%{
+                transform: scale(1.5);
+            }
+            100%{
+                transform: scale(1);
+            }
+        }
+        #slideshow {
+            text-align: center;
+            overflow: hidden;
+            height: 510px;
+            width: 728px;
+            margin-bottom: 400px;
+        }
+           
+        .slide-wrapper {
+            width: 2912px;
+            animation: slide 18s ease infinite;
+        }
+           
+        .slide {
+            float: left;
+            height: 510px;
+            width: 728px;
+        }
+           
+        .slide:nth-child(1) { /*Elementos de una etiqueta que estan dentro*/
+            background-color: rgb(216, 41, 243);
+          }
+           
+        .slide:nth-child(2) {
+            background-color: coral;
+        }
+           
+        .slide:nth-child(3) {
+            background-color: greenyellow;
+        }
+           
+        .slide:nth-child(4) {
+            background-color: brown;
+        }
+           
+        @keyframes slide {
+            20% {margin-left: 0px;}
+            30% {margin-left: -728px;}
+            50% {margin-left: -728px;}
+            60% {margin-left: -1456px;}
+            70% {margin-left: -1456px;}
+            80% {margin-left: -2184px;}
+            90% {margin-left: -2184px;}
+        }
+        .letrablanca{
+            color: #E3DBE6;
+        }
+        .divyspanomas{
+            width: 1000px;
+            height: 70px;
+            background-color: #B00909;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10px;
+        }
+        .spans{
+            color: #440D0F;
+        }
+        .segundospan{
+            background-color: #E3DBE6;
+            color: #440D0F;
+        }
+        /* el @media es para que no de problemas en dispositivos que no tienen cursor */
+        @media (hover: hover){
+            .pb:hover{
+                color: #E3DBE6;
+                background-color: #603A40;
+            }
+        }
+        /*el active de aquí es una pseudoclase, ya que representa una característica especial*/
+        .pb:active{
+            color: #B00909;
+            background-color: #000000;
+        }
+        a{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .bloqs{
+            width: 100px;
+            height: 100px;
+            background-color: #603A40;
+            display: inline-block;
+        }
+        .contentbloqs{
+            width: 1900px;
+            height: 110px;
+            margin-left: auto;
+            margin-right: auto;
+        }
