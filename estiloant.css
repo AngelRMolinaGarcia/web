@@ -1,0 +1,53 @@
+.menuant {
+    width: 1900px;
+    height: 90px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #191716;
+    color: #E3DBE6;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.abajadores{
+    width: 148px;
+    height: 20px;
+    margin-top: -20px;
+    margin-left: 1270px;
+    position: relative;
+}
+.abajadores ul{
+    position: absolute;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 1s;
+}
+.abajadores:hover ul{
+    max-height: 400px;
+}
+.portadas {
+    text-decoration: none;
+    color: #E3DBE6;
+}
+.submenu{
+    width: 1000px;
+    height: 40px;
+    margin-left: 450px
+}
+body{
+    margin: 0;
+}
+.vincs {
+    text-align: left;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #B00909;
+}
+.centrador{
+    width: 185px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
